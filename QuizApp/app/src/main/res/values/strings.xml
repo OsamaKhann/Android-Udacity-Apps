@@ -1,0 +1,125 @@
+<resources>
+
+                                    <!--String resources for quiz app-->
+    <string name="app_name">Quiz App</string>
+    <string name="main_heading">Welcome to The Quiz!</string>
+    <string name="choose_category_heading">Choose Category</string>
+    <string name="sports_category">Sports</string>
+    <string name="education_category">Education</string>
+    <string name="main_btn_text">Let\'s Start</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="pass_message">Congratulations! You Pass the Quiz</string>
+    <string name="fail_message">Opps! You Fail in the Quiz</string>
+    <string name="all_question_error">Please Give Answers of All Questions</string>
+    <string name="total_score">Total Score</string>
+    <string name="percentage">Percentage</string>
+    <string name="edit_message">Enter Your Answer here</string>
+
+
+
+                        <!--Quiz Question for Sports Section-->
+    <string name="sports_question_one">Q1-   Which player has scored the fastest century?</string>
+    <string name="sports_question_one_op_one">Shahid Afridi</string>
+    <string name="sports_question_one_op_two">Sanath Jayasuriya</string>
+    <string name="sports_question_one_op_three">Ab deviliers</string>
+    <string name="sports_question_one_op_four">Corey Anderson</string>
+
+
+
+    <string name="sports_question_two">Q2-  When did South Africa made its One Day International debut?</string>
+    <string name="sports_question_two_op_one">1971</string>
+    <string name="sports_question_two_op_two">1991</string>
+    <string name="sports_question_two_op_three">1994</string>
+    <string name="sports_question_two_op_four">1980</string>
+
+
+    <string name="sports_question_three">Q3-   Which player has maximum number of one day ducks?</string>
+    <string name="sports_question_three_op_one">Wasim Akram</string>
+    <string name="sports_question_three_op_two">Virender Sehwag</string>
+    <string name="sports_question_three_op_three">Shahid Afridi</string>
+    <string name="sports_question_three_op_four">Sanath Jayasuriya</string>
+
+
+
+    <string name="sports_question_four">Q4-   Who holds the record for the highest number of runs in Test Cricket?</string>
+    <string name="sports_question_four_op_one">Sunil Gavaskar</string>
+    <string name="sports_question_four_op_two">Geoffrey Boycott</string>
+    <string name="sports_question_four_op_three">Sachin Tendulkar</string>
+    <string name="sports_question_four_op_four">Gary Sobers</string>
+
+
+    <string name="sports_question_five">Q5-   Which country will host 2015–Cricket World Cup?</string>
+    <string name="sports_question_five_op_one">India</string>
+    <string name="sports_question_five_op_two">Austratia</string>
+    <string name="sports_question_five_op_three">England</string>
+    <string name="sports_question_five_op_four">New Zealand</string>
+
+
+    <string name="sports_question_six">Q6-  When Pakistan won World Cup last time?</string>
+    <string name="sports_question_six_op_one">1992</string>
+    <string name="sports_question_six_op_two">2003</string>
+    <string name="sports_question_six_op_three">2011</string>
+    <string name="sports_question_six_op_four">1999</string>
+
+
+
+                            <!--Quiz Question for Education Section-->
+    <string name="education_question_one">Q1-   Who invented C++ ?</string>
+    <string name="education_question_one_op_one">Larry Wall</string>
+    <string name="education_question_one_op_two">Grace Hopper</string>
+    <string name="education_question_one_op_three">Bjarne Stroustrup</string>
+    <string name="education_question_one_op_four">John Backus</string>
+
+
+    <string name="education_question_two">Q2-  Which of the following cannot be checked in a switch-case statement?</string>
+    <string name="education_question_two_op_one">Float</string>
+    <string name="education_question_two_op_two">Character</string>
+    <string name="education_question_two_op_three">Integer</string>
+    <string name="education_question_two_op_four">enum</string>
+
+
+    <string name="education_question_three">Q3-  What of the following is the default value of a local variable?</string>
+    <string name="education_question_three_op_one">null</string>
+    <string name="education_question_three_op_two">0</string>
+    <string name="education_question_three_op_three">Depends Upon Types of Variables</string>
+    <string name="education_question_three_op_four">Not Assigned</string>
+
+
+    <string name="education_question_four">Q4-   Javascript is created in _________ year?</string>
+    <string name="education_question_four_correct_anwser">1995</string>
+
+
+
+    <string name="education_question_five">Q5-   Which of the following is a storage device?</string>
+    <string name="education_question_five_op_one">Hard Disk</string>
+    <string name="education_question_five_op_two">Ram</string>
+    <string name="education_question_five_op_three">Power Supply</string>
+    <string name="education_question_five_op_four">Usb Drives</string>
+
+
+    <string name="education_question_six">Q6-  Who developed COBOL?</string>
+    <string name="education_question_six_correct_anwser">Grace Murry Hopper</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

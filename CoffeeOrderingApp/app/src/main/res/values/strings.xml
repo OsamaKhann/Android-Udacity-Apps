@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Coffee Ordering App</string>
+    <string name="hint_enter_name">Enter Your Name</string>
+    <string name="hint_enter_address">Enter Your Address</string>
+    <string name="hint_enter_number">Enter Your Number</string>
+    <string name="text_quantity">quantity</string>
+    <string name="text_toppings">toppings</string>
+    <string name="text_orderBtn">Submit Order</string>
+    <string name="check_chocolate">Chocolate</string>
+    <string name="check_cream">Whipped Cream</string>
+    <string name="coffee_quantity">1</string>
+    <string name="per_cup">Price Per Cup: 120PKR</string>
+    <string name="per_whippedCream">Whipped Cream : 20PKR</string>
+    <string name="per_Chocolate">Chocolate : 30PKR</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+</resources>

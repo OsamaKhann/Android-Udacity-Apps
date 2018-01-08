@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.osamak.coffeeorderingapp.MainActivity"
+        android:background="@color/coloBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/customer_name"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_enter_name" />
+
+
+        <EditText
+            android:id="@+id/customer_address"
+            android:hint="@string/hint_enter_address"
+            style="@style/EditTextStyle"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_toppings"
+            android:textColor="@color/colorText"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"/>
+
+
+        <CheckBox
+            android:id="@+id/whipped_cream_topping"
+            android:text="@string/check_cream"
+            style="@style/CheckBoxStyle"/>
+
+
+        <CheckBox
+            android:id="@+id/chocolate_topping"
+            android:text="@string/check_chocolate"
+            style="@style/CheckBoxStyle"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_quantity"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decrement"
+                style="@style/QuantityButtonStyle"
+                android:text="@string/decrement"
+                android:textColor="@color/colorButtonText" />
+
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/coffee_quantity"
+                android:textColor="@color/colorText"/>
+
+            <Button
+                android:id="@+id/increment"
+                style="@style/QuantityButtonStyle"
+                android:text="@string/increment"
+                android:textColor="@color/colorButtonText" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price_per_cup_coffee"
+            android:text="@string/per_cup"
+            android:layout_marginTop="18dp"
+            style="@style/InformationTextStyle"/>
+
+        <TextView
+            android:id="@+id/per_toppings_wc"
+            android:text="@string/per_whippedCream"
+            style="@style/InformationTextStyle"/>
+
+        <TextView
+            android:id="@+id/per_toppings_choco"
+            android:text="@string/per_Chocolate"
+            style="@style/InformationTextStyle"/>
+
+        <Button
+            android:id="@+id/submit_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/text_orderBtn"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorButtonText"
+            />
+    </LinearLayout>
+</ScrollView>

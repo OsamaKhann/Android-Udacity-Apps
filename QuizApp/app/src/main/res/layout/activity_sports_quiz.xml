@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.osamak.quizapp.SportsQuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_one" />
+
+            <RadioGroup
+                android:id="@+id/sports_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/question_one_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_one_op_one" />
+
+                <RadioButton
+                    android:id="@+id/question_one_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_one_op_two" />
+
+                <RadioButton
+                    android:id="@+id/question_one_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_one_op_three" />
+
+                <RadioButton
+                    android:id="@+id/question_one_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_one_op_four" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_two" />
+
+            <RadioGroup
+                android:id="@+id/sports_question_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/question_two_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_two_op_one" />
+
+                <RadioButton
+                    android:id="@+id/question_two_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_two_op_two" />
+
+                <RadioButton
+                    android:id="@+id/question_two_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_two_op_three" />
+
+                <RadioButton
+                    android:id="@+id/question_two_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_two_op_four" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_three" />
+
+            <RadioGroup
+                android:id="@+id/sports_question_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/question_three_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_three_op_one" />
+
+                <RadioButton
+                    android:id="@+id/question_three_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_three_op_two" />
+
+                <RadioButton
+                    android:id="@+id/question_three_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_three_op_three" />
+
+                <RadioButton
+                    android:id="@+id/question_three_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_three_op_four" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_four" />
+
+            <RadioGroup
+                android:id="@+id/sports_question_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/question_four_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_four_op_one" />
+
+                <RadioButton
+                    android:id="@+id/question_four_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_four_op_two" />
+
+                <RadioButton
+                    android:id="@+id/question_four_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_four_op_three" />
+
+                <RadioButton
+                    android:id="@+id/question_four_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_four_op_four" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_five" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/question_five_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_five_op_one" />
+
+                <CheckBox
+                    android:id="@+id/question_five_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_five_op_two" />
+
+                <CheckBox
+                    android:id="@+id/question_five_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_five_op_three" />
+
+                <CheckBox
+                    android:id="@+id/question_five_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_five_op_four" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextQuestionStyle"
+                android:text="@string/sports_question_six" />
+
+            <RadioGroup
+                android:id="@+id/sports_question_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/question_six_option_one"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_six_op_one" />
+
+                <RadioButton
+                    android:id="@+id/question_six_option_two"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_six_op_two" />
+
+                <RadioButton
+                    android:id="@+id/question_six_option_three"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_six_op_three" />
+
+                <RadioButton
+                    android:id="@+id/question_six_option_four"
+                    style="@style/QuizOptionStyle"
+                    android:text="@string/sports_question_six_op_four" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_quiz"
+            style="@style/SubmitButtonStyle" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="QuizOptionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="TextQuestionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GradingTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="EditTextStyle">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:hint">@string/edit_message</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/colorText</item>
+
+    </style>
+
+    <style name="SubmitButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:text">@string/submit_button_text</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

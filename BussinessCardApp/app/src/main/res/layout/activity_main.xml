@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.osamak.bussinesscardapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main" />
+
+    <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Potadose"
+               android:gravity="center"
+               android:textColor="@color/colorText"
+               android:layout_margin="10dp"
+               android:textSize="34dp"
+               android:textStyle="bold"
+               android:fontFamily="casual" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="About Potadose"
+               android:fontFamily="casual"
+               android:textColor="@color/colorText"
+               android:layout_marginStart="20dp"
+               android:padding="6dp"
+               android:textSize="30sp" />
+
+           <LinearLayout
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="32dp"
+               android:layout_marginLeft="32dp"
+               android:layout_marginTop="20dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/description"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginEnd="10dp"/>
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:text="Potadose is a French Fries Outlet where different types and flavours of french fries are available.."
+                       android:layout_weight="1"
+                       android:fontFamily="sans-serif"
+                       android:gravity="center_vertical"
+                       android:textColor="@color/colorText"
+                       android:textStyle="bold"
+                       android:textSize="14sp"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="12dp">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/time"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="3PM-12AM"
+                           android:layout_weight="1"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textColor="@color/colorText"
+                           android:textStyle="bold"
+                           android:textSize="14sp"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/address"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Khaliq-uz-Zaman Rd, Karachi"
+                           android:layout_weight="1"
+                           android:textSize="14sp"
+                           android:textColor="@color/colorText"
+                           android:textStyle="bold"
+                           android:gravity="center_vertical"
+                           android:fontFamily="sans-serif"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="12dp">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/fb"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="www.fb.com/potadose"
+                           android:layout_weight="1"
+                           android:textSize="14sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textColor="@color/colorText"
+                           android:textStyle="bold"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/contact"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="0332-3491946"
+                           android:layout_weight="1"
+                           android:textSize="13sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textColor="@color/colorText"
+                           android:textStyle="bold"/>
+
+                   </LinearLayout>
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Potadose Specialities"
+               android:fontFamily="casual"
+               android:textColor="@color/colorText"
+               android:layout_marginStart="20dp"
+               android:padding="6dp"
+               android:textSize="30sp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="32dp"
+               android:layout_marginLeft="32dp"
+               android:layout_marginTop="20dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="12dp">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/bullets"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Plain Fries"
+                           android:layout_weight="1"
+                           android:textSize="22sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textStyle="bold"
+                           android:textColor="@color/colorText"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/bullets"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Curly Fries"
+                           android:layout_weight="1"
+                           android:textSize="22sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textStyle="bold"
+                           android:textColor="@color/colorText"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="12dp">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/bullets"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Potato Chicken Strips"
+                           android:layout_weight="1"
+                           android:textSize="20sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textStyle="bold"
+                           android:textColor="@color/colorText"/>
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/bullets"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Potato Masti"
+                           android:layout_weight="1"
+                           android:textSize="21sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textStyle="bold"
+                           android:textColor="@color/colorText"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="12dp">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/bullets"
+                           android:layout_marginStart="10dp"
+                           android:layout_marginEnd="10dp"/>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:text="Dancing Potatoes"
+                           android:layout_weight="1"
+                           android:textSize="22sp"
+                           android:fontFamily="sans-serif"
+                           android:gravity="center_vertical"
+                           android:textStyle="bold"
+                           android:textColor="@color/colorText"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>

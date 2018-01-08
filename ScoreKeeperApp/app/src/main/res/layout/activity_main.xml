@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.osamak.scorekeeper_app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TeamNameStyle"
+                android:text="@string/teamA_name" />
+
+            <TextView style="@style/TeamGoalsStyle" />
+
+            <TextView
+                android:id="@+id/teamA_goal"
+                style="@style/TeamGoalNumberStyle" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorDivide" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TeamNameStyle"
+                android:text="@string/teamB_name" />
+
+            <TextView style="@style/TeamGoalsStyle" />
+
+            <TextView
+                android:id="@+id/teamB_goal"
+                style="@style/TeamGoalNumberStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_offside_text" />
+
+            <TextView
+                android:id="@+id/teamA_offside"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_offside" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_corner_text" />
+
+            <TextView
+                android:id="@+id/teamA_corner"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_corner" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:background="@color/colorDivide" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_offside_text" />
+
+            <TextView
+                android:id="@+id/teamB_offside"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_offside" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_corner_text" />
+
+            <TextView
+                android:id="@+id/teamB_corner"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_corner" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_foul_text" />
+
+            <TextView
+                android:id="@+id/teamA_foul"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_foul" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_penalties_text" />
+
+            <TextView
+                android:id="@+id/teamA_penalties"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_penalties" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:background="@color/colorDivide" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_foul_text" />
+
+            <TextView
+                android:id="@+id/teamB_foul"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_foul" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/OtherMetricsTextStyle"
+                android:text="@string/team_penalties_text" />
+
+            <TextView
+                android:id="@+id/teamB_penalties"
+                style="@style/OtherMetricsNumberStyle"
+                android:text="@string/team_penalties" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:id="@+id/MainButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingBottom="14dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/teamA_goal_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_goal_increment" />
+
+                    <Button
+                        android:id="@+id/teamA_offside_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_offside_increment" />
+
+                    <Button
+                        android:id="@+id/teamA_corner_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_corner_increment" />
+
+                    <Button
+                        android:id="@+id/teamA_foul_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_fouls_increment" />
+
+                    <Button
+                        android:id="@+id/teamA_penalties_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_penalties_increment" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/teamB_goal_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_goal_increment" />
+
+                    <Button
+                        android:id="@+id/teamB_offside_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_offside_increment" />
+
+                    <Button
+                        android:id="@+id/teamB_corner_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_corner_increment" />
+
+                    <Button
+                        android:id="@+id/teamB_foul_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_fouls_increment" />
+
+                    <Button
+                        android:id="@+id/teamB_penalties_increment"
+                        style="@style/AppButtonStyle"
+                        android:text="@string/team_penalties_increment" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/MainButtons"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/reset_button" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
